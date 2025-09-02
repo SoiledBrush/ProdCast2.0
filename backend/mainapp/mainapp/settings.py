@@ -27,6 +27,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
     "http://tstweb08",
+    "http://10.0.0.35",
     "http://10.117.8.121", 
     "http://localhost", # если обращение с IP
 ]
