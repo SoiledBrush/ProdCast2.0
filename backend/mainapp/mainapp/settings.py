@@ -28,6 +28,7 @@ ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
     "http://tstweb08",
     "http://10.0.0.35",
+    "https://azatdb.qoyma.duckdns.org",
     "http://10.117.8.121", 
     "http://localhost", # если обращение с IP
 ]
@@ -87,7 +88,7 @@ DATABASES = {
         'NAME': 'prodcast2.0',       # имя вашей базы
         'USER': 'postgres',     # пользователь
         'PASSWORD': '1',
-        'HOST': 'localhost',    # или IP/домен сервера
+        'HOST': 'db',    # или IP/домен сервера
         'PORT': '5432',         # стандартный порт PostgreSQL
     }
 }

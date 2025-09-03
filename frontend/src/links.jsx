@@ -1,2 +1,2 @@
-const API = "http://10.0.0.35:8000/api"
+const API = "https://azatdb.qoyma.duckdns.org/api"
 export default API
