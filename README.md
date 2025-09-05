@@ -1,4 +1,4 @@
-# Compiled Docker Compose for Django + React application.
+# Docker Compose implementaion for [Saatchi's project](https://github.com/saatchi190499/ProdCast2.0.git)
 * Backend: Django + Gunicorn
 * Frontend: React 
 * Database: PostgreSQL
